@@ -22,7 +22,7 @@ namespace MyFirstProgram
             while (playerScore < 10)
             {
                 //request input;
-                Console.Write("Increment score: ");
+                //Console.Write("Increment score: ");
                 add = Convert.ToInt32(Console.ReadLine());
                 //add score;
                 playerScore += add;
